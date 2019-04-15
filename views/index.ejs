@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        buy please
+    </h1>
+    <form action="/charge" method="POST">
+        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="pk_test_rveetrgEM0WgdhqHsQZ76Yfp00kQUVlXM5" data-amount="2500" data-name="Demo Site"
+            data-description="Example charge" data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+            data-locale="auto" data-currency="gbp">
+        </script>
+    </form>
+
+</body>
+
+</html>
